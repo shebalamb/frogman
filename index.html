@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Frogman — Executive Transport</title>
+  <meta
+    name="description"
+    content="Premium executive transport, airport transfers, chauffeur service and discreet operational support."
+  />
+
+  <meta property="og:title" content="Frogman — Executive Transport" />
+  <meta
+    property="og:description"
+    content="Premium executive transport, airport transfers, chauffeur service and discreet operational support."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img/og/frogman-og-cover.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Frogman — Executive Transport" />
+  <meta
+    name="twitter:description"
+    content="Premium executive transport, airport transfers, chauffeur service and discreet operational support."
+  />
+  <meta name="twitter:image" content="assets/img/og/frogman-og-cover.jpg" />
+
+  <link rel="icon" type="image/png" href="assets/img/logo/favicon.png" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Frogman home">
+        <span class="brand-mark">
+          <img src="assets/img/logo/frogman-logo-primary.png" alt="Frogman logo" />
+        </span>
+        <span class="brand-copy">
+          <strong>FROGMAN</strong>
+          <span data-i18n="brand.sub">Transportation and Security</span>
+        </span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        aria-expanded="false"
+        aria-controls="siteNav"
+        aria-label="Open navigation"
+      >
+        <span></span>
+      </button>
+
+      <div class="nav-shell" id="siteNav">
+        <nav class="nav">
+          <a href="#home" data-i18n="nav.home">Home</a>
+          <a href="#services" data-i18n="nav.services">Services</a>
+          <a href="#how" data-i18n="nav.how">How We Work</a>
+          <a href="#why" data-i18n="nav.why">Why Frogman</a>
+          <a href="#contact" data-i18n="nav.contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions" style="display:flex; align-items:center; gap:12px; flex-wrap:wrap;">
+          <div class="lang-switch" aria-label="Language switcher">
+            <button type="button" data-lang="en" class="active">EN</button>
+            <button type="button" data-lang="es">ES</button>
+            <button type="button" data-lang="fr">FR</button>
+            <button type="button" data-lang="pt">PT</button>
+          </div>
+
+          <a class="btn btn-secondary" id="headerWhatsApp" href="#contact" data-i18n="cta.whatsapp">
+            WhatsApp
+          </a>
+
+          <a class="btn btn-primary" id="headerBook" href="#contact" data-i18n="cta.book">
+            Book Now
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-panel">
+        <div class="hero-copy" data-reveal>
+          <div class="eyebrow" data-i18n="hero.eyebrow">Premium Executive Transport</div>
+          <h1 data-i18n="hero.title">Executive transport, handled with precision.</h1>
+          <p class="lead" data-i18n="hero.subtitle">
+            Premium airport transfers, executive mobility and discreet operational support for clients who value punctuality, confidentiality and control.
+          </p>
+
+          <div class="btn-row">
+            <a class="btn btn-primary" id="heroBook" href="#contact" data-i18n="hero.cta_primary">
+              Reserve with Limo
+            </a>
+            <a class="btn btn-secondary" id="heroWhatsApp" href="#contact" data-i18n="hero.cta_secondary">
+              Contact via WhatsApp
+            </a>
+          </div>
+
+          <div class="supporting-line" id="heroSupporting"></div>
+
+          <div class="mini-stats">
+            <div class="mini-stat">
+              <strong data-i18n="hero.stats.1.title">Airport Transfers</strong>
+              <span data-i18n="hero.stats.1.body">Smooth arrivals and departures</span>
+            </div>
+            <div class="mini-stat">
+              <strong data-i18n="hero.stats.2.title">Executive Mobility</strong>
+              <span data-i18n="hero.stats.2.body">For high-level itineraries</span>
+            </div>
+            <div class="mini-stat">
+              <strong data-i18n="hero.stats.3.title">Discreet Support</strong>
+              <span data-i18n="hero.stats.3.body">Integrated when needed</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual" data-reveal>
+          <picture>
+            <source media="(max-width: 680px)" srcset="assets/img/hero/hero-main-mobile.jpg" />
+            <img src="assets/img/hero/hero-main.jpg" alt="Executive transport visual" />
+          </picture>
+
+          <div class="hero-badge">
+            <strong data-i18n="hero.badge.title">Discreet by default</strong>
+            <p data-i18n="hero.badge.body">
+              Premium service execution with low-profile control, refined presentation and reliable coordination from arrival to destination.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container about-layout">
+        <div data-reveal>
+          <div class="section-head">
+            <div class="eyebrow" data-i18n="about.eyebrow">About Frogman</div>
+            <h2 data-i18n="about.title">A premium transport experience built on discipline and discretion.</h2>
+            <p class="lead" data-i18n="about.body">
+              Frogman provides executive transportation for VIPs, business travelers, delegations and clients who expect more than a standard car service. From airport arrivals to final destination, every movement is coordinated with precision, confidentiality and a premium service mindset.
+            </p>
+          </div>
+
+          <div class="highlights">
+            <div class="highlight" data-i18n="about.highlight_1">Executive-grade service</div>
+            <div class="highlight" data-i18n="about.highlight_2">Airport, hotel and event coordination</div>
+            <div class="highlight" data-i18n="about.highlight_3">Luxury fleet experience</div>
+            <div class="highlight" data-i18n="about.highlight_4">Confidential handling by default</div>
+          </div>
+        </div>
+
+        <div class="image-card" data-reveal>
+          <img src="assets/img/about/about-premium-mobility.jpg" alt="Frogman premium mobility" />
+          <div class="image-overlay">
+            <strong data-i18n="about.overlay_title">Controlled execution</strong>
+            <p data-i18n="about.overlay_body">
+              A service model built for clients who value timing, presentation and quiet confidence.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <div class="eyebrow" data-i18n="services.eyebrow">Services</div>
+          <h2 data-i18n="services.title">Mobility solutions tailored to executive needs</h2>
+          <p class="lead" data-i18n="services.intro">
+            From single transfers to complex itineraries, Frogman delivers smooth, reliable and discreet mobility for high-level clients and organizations.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <article class="card service-card" data-reveal>
+            <small>01</small>
+            <h3 data-i18n="services.items.airport.title">Airport Transfers</h3>
+            <p data-i18n="services.items.airport.body">
+              Private arrivals and departures with flight monitoring, meet & greet and seamless coordination.
+            </p>
+          </article>
+
+          <article class="card service-card" data-reveal>
+            <small>02</small>
+            <h3 data-i18n="services.items.exec.title">Executive Transportation</h3>
+            <p data-i18n="services.items.exec.body">
+              Door-to-door service for meetings, offices, hotels, dinners and business agendas.
+            </p>
+          </article>
+
+          <article class="card service-card" data-reveal>
+            <small>03</small>
+            <h3 data-i18n="services.items.hourly.title">Hourly Chauffeur Service</h3>
+            <p data-i18n="services.items.hourly.body">
+              Vehicle and chauffeur at your disposal for hourly bookings, multi-stop schedules and custom itineraries.
+            </p>
+          </article>
+
+          <article class="card service-card" data-reveal>
+            <small>04</small>
+            <h3 data-i18n="services.items.hotel.title">Hotel & Event Coordination</h3>
+            <p data-i18n="services.items.hotel.body">
+              Mobility support for VIP guests, delegations, executives and event-related operations.
+            </p>
+          </article>
+
+          <article class="card service-card" data-reveal>
+            <small>05</small>
+            <h3 data-i18n="services.items.vip.title">Corporate & VIP Mobility</h3>
+            <p data-i18n="services.items.vip.body">
+              A refined service model for principals, corporate leaders and clients who require a higher standard of movement.
+            </p>
+          </article>
+
+          <article class="card service-card" data-reveal>
+            <small>06</small>
+            <h3 data-i18n="services.items.protect.title">Discreet Protective Support</h3>
+            <p data-i18n="services.items.protect.body">
+              Additional operational support can be integrated when profile, itinerary or context requires a more controlled execution.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="why">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <div class="eyebrow" data-i18n="why.eyebrow">Why Frogman</div>
+          <h2 data-i18n="why.title">A higher standard of movement</h2>
+          <p class="lead" data-i18n="why.intro">
+            What sets Frogman apart is not only the vehicle or the route, but the way every service is planned, presented and executed.
+          </p>
+        </div>
+
+        <div class="why-grid">
+          <article class="card why-card" data-reveal>
+            <small>01</small>
+            <h3 data-i18n="why.items.discretion.title">Discretion by default</h3>
+            <p data-i18n="why.items.discretion.body">
+              Privacy is not an extra. It is part of the operating standard.
+            </p>
+          </article>
+
+          <article class="card why-card" data-reveal>
+            <small>02</small>
+            <h3 data-i18n="why.items.timing.title">Precision timing</h3>
+            <p data-i18n="why.items.timing.body">
+              We work with time margins, real coordination and a zero-delay mindset.
+            </p>
+          </article>
+
+          <article class="card why-card" data-reveal>
+            <small>03</small>
+            <h3 data-i18n="why.items.chauffeurs.title">Executive-trained chauffeurs</h3>
+            <p data-i18n="why.items.chauffeurs.body">
+              Professional presence, refined etiquette and disciplined execution at every stage of the service.
+            </p>
+          </article>
+
+          <article class="card why-card" data-reveal>
+            <small>04</small>
+            <h3 data-i18n="why.items.control.title">Controlled experience</h3>
+            <p data-i18n="why.items.control.body">
+              Less friction, less exposure and more control over the journey.
+            </p>
+          </article>
+
+          <article class="card why-card" data-reveal>
+            <small>05</small>
+            <h3 data-i18n="why.items.tailored.title">Tailored coordination</h3>
+            <p data-i18n="why.items.tailored.body">
+              Each service adapts to the client’s itinerary, priorities and context.
+            </p>
+          </article>
+
+          <article class="card why-card" data-reveal>
+            <small>06</small>
+            <h3 data-i18n="why.items.presentation.title">Premium presentation</h3>
+            <p data-i18n="why.items.presentation.body">
+              Vehicles, drivers and communication aligned with high-end expectations.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <div class="eyebrow" data-i18n="experience.eyebrow">The Experience</div>
+          <h2 data-i18n="experience.title">From arrival to destination, every detail is handled</h2>
+          <p class="lead" data-i18n="experience.intro">
+            A Frogman service is designed to feel smooth, controlled and effortless for the client.
+          </p>
+        </div>
+
+        <div class="journey-grid">
+          <article class="card journey-card" data-reveal>
+            <small>01</small>
+            <h3 data-i18n="experience.items.1.title">Arrival coordination</h3>
+            <p data-i18n="experience.items.1.body">We track timing and prepare the service before you land.</p>
+          </article>
+
+          <article class="card journey-card" data-reveal>
+            <small>02</small>
+            <h3 data-i18n="experience.items.2.title">Meet & greet</h3>
+            <p data-i18n="experience.items.2.body">
+              Professional reception and smooth handoff from terminal to vehicle.
+            </p>
+          </article>
+
+          <article class="card journey-card" data-reveal>
+            <small>03</small>
+            <h3 data-i18n="experience.items.3.title">Vehicle readiness</h3>
+            <p data-i18n="experience.items.3.body">
+              Clean presentation, executive atmosphere and immediate departure.
+            </p>
+          </article>
+
+          <article class="card journey-card" data-reveal>
+            <small>04</small>
+            <h3 data-i18n="experience.items.4.title">Seamless transfer</h3>
+            <p data-i18n="experience.items.4.body">
+              A quiet, comfortable journey handled with discretion and precision.
+            </p>
+          </article>
+
+          <article class="card journey-card" data-reveal>
+            <small>05</small>
+            <h3 data-i18n="experience.items.5.title">Destination arrival</h3>
+            <p data-i18n="experience.items.5.body">
+              Hotel, office, residence or venue, without friction.
+            </p>
+          </article>
+
+          <article class="card journey-card" data-reveal>
+            <small>06</small>
+            <h3 data-i18n="experience.items.6.title">Itinerary continuity</h3>
+            <p data-i18n="experience.items.6.body">
+              When needed, the service extends beyond one transfer into full movement coordination.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="how">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <div class="eyebrow" data-i18n="how.eyebrow">How We Work</div>
+          <h2 data-i18n="how.title">A simple process, executed professionally</h2>
+          <p class="lead" data-i18n="how.intro">
+            Working with Frogman is straightforward on the surface and highly organized underneath.
+          </p>
+        </div>
+
+        <div class="process-grid">
+          <article class="card process-card" data-reveal>
+            <small>01</small>
+            <h3 data-i18n="how.items.1.title">Share your itinerary</h3>
+            <p data-i18n="how.items.1.body">
+              Tell us your route, timing, service type and any specific requirements.
+            </p>
+          </article>
+
+          <article class="card process-card" data-reveal>
+            <small>02</small>
+            <h3 data-i18n="how.items.2.title">We confirm logistics</h3>
+            <p data-i18n="how.items.2.body">
+              We validate service details, coordination points and operational needs.
+            </p>
+          </article>
+
+          <article class="card process-card" data-reveal>
+            <small>03</small>
+            <h3 data-i18n="how.items.3.title">Your service is assigned</h3>
+            <p data-i18n="how.items.3.body">
+              Vehicle, chauffeur and execution plan are defined according to the booking.
+            </p>
+          </article>
+
+          <article class="card process-card" data-reveal>
+            <small>04</small>
+            <h3 data-i18n="how.items.4.title">We monitor and execute</h3>
+            <p data-i18n="how.items.4.body">
+              Timing, routing and service flow are actively managed.
+            </p>
+          </article>
+
+          <article class="card process-card" data-reveal>
+            <small>05</small>
+            <h3 data-i18n="how.items.5.title">You move without friction</h3>
+            <p data-i18n="how.items.5.body">
+              You focus on your agenda. We handle the movement.
+            </p>
+          </article>
+
+          <article class="card process-card" data-reveal>
+            <small>→</small>
+            <h3 data-i18n="how.cta">Reserve your service</h3>
+            <p data-i18n="how.cta_body">
+              Direct booking for transfers, executive itineraries and tailored service requests.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="standard">
+      <div class="container standard-layout">
+        <div class="cta-panel" data-reveal>
+          <div class="eyebrow" data-i18n="standard.eyebrow">Operational Standard</div>
+          <h2 data-i18n="standard.title">Discreet by design</h2>
+          <p class="lead" style="margin-top: 18px;" data-i18n="standard.body">
+            Frogman operates with a disciplined service model shaped by anticipation, precision and low-profile control. For clients who require it, additional protective coordination can be integrated seamlessly into the overall service experience.
+          </p>
+
+          <div class="btn-row">
+            <a class="btn btn-primary" id="standardBook" href="#contact" data-i18n="cta.book">Book Now</a>
+            <a class="btn btn-ghost" id="standardWhatsApp" href="#contact" data-i18n="cta.whatsapp">WhatsApp</a>
+          </div>
+        </div>
+
+        <div data-reveal>
+          <div class="section-head">
+            <div class="eyebrow" data-i18n="client.eyebrow">Client Experience</div>
+            <h2 data-i18n="client.title">What clients value most</h2>
+          </div>
+
+          <div class="benefits-grid" style="margin-top: 0;">
+            <article class="card benefit-card">
+              <small>01</small>
+              <h3 data-i18n="client.items.1.title">On-time execution</h3>
+              <p data-i18n="client.items.1.body">
+                Reliable arrivals and departures with real coordination behind the service.
+              </p>
+            </article>
+
+            <article class="card benefit-card">
+              <small>02</small>
+              <h3 data-i18n="client.items.2.title">Confidential handling</h3>
+              <p data-i18n="client.items.2.body">
+                Private, respectful and discreet communication throughout the journey.
+              </p>
+            </article>
+
+            <article class="card benefit-card">
+              <small>03</small>
+              <h3 data-i18n="client.items.3.title">Personalized attention</h3>
+              <p data-i18n="client.items.3.body">
+                Preferences, timing and service details handled with care.
+              </p>
+            </article>
+
+            <article class="card benefit-card">
+              <small>04</small>
+              <h3 data-i18n="client.items.4.title">Premium comfort</h3>
+              <p data-i18n="client.items.4.body">
+                Quiet cabins, smooth rides and a polished travel experience.
+              </p>
+            </article>
+
+            <article class="card benefit-card">
+              <small>05</small>
+              <h3 data-i18n="client.items.5.title">Responsive communication</h3>
+              <p data-i18n="client.items.5.body">
+                Fast, clear and discreet support when plans move.
+              </p>
+            </article>
+
+            <article class="card benefit-card">
+              <small>06</small>
+              <h3 data-i18n="client.items.6.title">Professional presentation</h3>
+              <p data-i18n="client.items.6.body">
+                Drivers and vehicles aligned with executive expectations.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container cta-layout">
+        <div class="cta-panel" data-reveal>
+          <div class="eyebrow" data-i18n="final.eyebrow">Ready When You Are</div>
+          <h2 data-i18n="final.title">Ready to move with confidence?</h2>
+          <p class="lead" style="margin-top: 18px;" data-i18n="final.body">
+            Book your service directly or contact us for itinerary coordination, special requests or tailored executive transportation.
+          </p>
+
+          <div class="btn-row">
+            <a class="btn btn-primary" id="finalBook" href="#" data-i18n="final.book">Book Now</a>
+            <a class="btn btn-secondary" id="finalWhatsApp" href="#" data-i18n="final.whatsapp">WhatsApp Us</a>
+          </div>
+
+          <div class="supporting-line" id="finalSupporting" style="margin-top: 20px;"></div>
+        </div>
+
+        <div class="card" data-reveal>
+          <div class="eyebrow" data-i18n="contact.eyebrow">Contact</div>
+          <h3 style="font-size: 1.4rem; margin-bottom: 18px;" data-i18n="contact.title">
+            Need assistance or a custom request?
+          </h3>
+          <p class="lead" style="margin-bottom: 24px;" data-i18n="contact.body">
+            Use WhatsApp for fast coordination, or book directly through Limo if your itinerary is ready.
+          </p>
+
+          <div class="footer-contact">
+            <a id="contactWhatsApp" href="#">WhatsApp</a>
+            <a id="contactEmail" href="mailto:tsfrogman@gmail.com">tsfrogman@gmail.com</a>
+            <a id="contactPhone" href="tel:+50366906778">+503 6690-6778</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand" style="align-items: flex-start;">
+          <span class="brand-mark">
+            <img src="assets/img/logo/frogman-logo-primary.png" alt="Frogman logo" />
+          </span>
+          <span class="brand-copy">
+            <strong>FROGMAN</strong>
+            <span data-i18n="brand.sub">Transportation and Security</span>
+          </span>
+        </div>
+
+        <p class="lead" style="margin-top: 18px; max-width: 48ch;" data-i18n="footer.tagline">
+          Premium executive transport, delivered with discretion and precision.
+        </p>
+
+        <div class="footer-links">
+          <a href="#home" data-i18n="nav.home">Home</a>
+          <a href="#services" data-i18n="nav.services">Services</a>
+          <a href="#how" data-i18n="nav.how">How We Work</a>
+          <a href="#why" data-i18n="nav.why">Why Frogman</a>
+          <a href="#contact" data-i18n="nav.contact">Contact</a>
+        </div>
+      </div>
+
+      <div class="footer-contact">
+        <a id="footerBook" href="#" data-i18n="cta.book">Book Now</a>
+        <a id="footerWhatsApp" href="#" data-i18n="cta.whatsapp">WhatsApp</a>
+        <a href="mailto:tsfrogman@gmail.com">tsfrogman@gmail.com</a>
+        <a href="tel:+50366906778">+503 6690-6778</a>
+      </div>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" id="floatingWhatsApp" href="#" aria-label="WhatsApp">
+    <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true">
+      <path d="M19.11 17.26c-.29-.14-1.7-.84-1.96-.93-.26-.1-.45-.14-.64.14-.19.29-.74.93-.91 1.12-.17.19-.34.21-.63.07-.29-.14-1.23-.45-2.34-1.43-.86-.77-1.44-1.72-1.61-2.01-.17-.29-.02-.45.13-.59.13-.13.29-.34.43-.5.14-.17.19-.29.29-.48.1-.19.05-.36-.02-.5-.07-.14-.64-1.55-.88-2.13-.23-.55-.47-.48-.64-.49h-.55c-.19 0-.5.07-.76.36s-1 1-.99 2.43c0 1.43 1.04 2.81 1.18 3 .14.19 2.04 3.12 4.94 4.37.69.3 1.23.48 1.65.61.69.22 1.31.19 1.8.12.55-.08 1.7-.7 1.94-1.38.24-.67.24-1.26.17-1.38-.07-.12-.26-.19-.55-.33Z"></path>
+      <path d="M16.01 3.2c-7.07 0-12.8 5.72-12.8 12.78 0 2.26.59 4.47 1.71 6.41L3.13 28.8l6.58-1.73a12.82 12.82 0 0 0 6.29 1.61h.01c7.06 0 12.79-5.73 12.79-12.79 0-3.42-1.33-6.63-3.75-9.04A12.7 12.7 0 0 0 16.01 3.2Zm0 23.32h-.01a10.6 10.6 0 0 1-5.4-1.48l-.39-.23-3.9 1.02 1.04-3.8-.25-.39a10.56 10.56 0 0 1-1.63-5.64c0-5.85 4.75-10.6 10.59-10.6 2.83 0 5.49 1.1 7.49 3.1 2 2 3.1 4.66 3.1 7.49 0 5.84-4.76 10.59-10.63 10.59Z"></path>
+    </svg>
+  </a>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
